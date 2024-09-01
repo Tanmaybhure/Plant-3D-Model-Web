@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Plant Models</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #1643c9;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+        }
+
+        .sketchfab-embed-wrapper {
+            flex: 1 1 calc(50% - 20px);
+            max-width: calc(50% - 20px);
+            background-color: #1e1e1e;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .sketchfab-embed-wrapper:hover {
+            transform: translateY(-10px);
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+
+        p {
+            margin: 10px;
+            text-align: center;
+            color: #bdbdbd;
+        }
+
+        a {
+            text-decoration: none;
+            color: #64ffda;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .sketchfab-embed-wrapper {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+
+            iframe {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>3D Plant Models</h1>
+    <div class="container">
+        <div class="sketchfab-embed-wrapper"> 
+            <iframe title="" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" src="https://sketchfab.com/models/98158fb9250c4a85a55925e69a220363/embed?ui_theme=dark"></iframe> 
+            <p>☘ White Clover, Trifolium repens</p>
+        </div>
+
+        <div class="sketchfab-embed-wrapper"> 
+            <iframe title="" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" src="https://sketchfab.com/models/5dbaa85638694660ac2f74df49aeb795/embed?ui_theme=dark"></iframe> 
+            <p>Barley, Hordeum vulgare</p>
+        </div>
+
+        <div class="sketchfab-embed-wrapper"> 
+            <iframe title=""allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" src="https://sketchfab.com/models/fc89e44d959049eb8330ac9ac3283ddb/embed?ui_theme=dark"></iframe> 
+            <p>Watercress, Nasturtium officinale</a> </p>
+        </div>
+
+        <div class="sketchfab-embed-wrapper"> 
+            <iframe title="" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" src="https://sketchfab.com/models/6dc18b09f2544a5fafe312789614048e/embed"></iframe> 
+            <p>Prickly Pear, Opuntia dillenii </p>
+        </div>
+
+        <div class="sketchfab-embed-wrapper"> <iframe title="" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/81c8029b7e304e0bbc69dcd06b0e4a9c/embed?ui_theme=dark"> </iframe> <p> Devil's Puffball </p>
+        </div>
+
+        <div class="sketchfab-embed-wrapper"> <iframe title="" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/da58e638df874afb94dbd2c14134b5e9/embed?ui_theme=dark"> </iframe> <p> Lemerocereus</p>
+        </div>
+    </div>
+</body>
+</html>
